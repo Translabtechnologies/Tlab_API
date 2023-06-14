@@ -1,3 +1,3 @@
 FROM openjdk:8-jdk-alpine
-COPY target/docker-Tlab_API.jar Tlab_API.jar
+COPY target/TlabApi-2.2.4.RELEASE.jar Tlab_API.jar
 ENTRYPOINT ["java","-jar","/Tlab_API.jar"]
